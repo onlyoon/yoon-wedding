@@ -1,0 +1,29 @@
+---
+import { Image } from "astro:assets";
+import mainImage from "../assets/main.jpg";
+---
+
+<div class="h-screen overflow-hidden bg-[color:--main-bg]">
+  <Image
+    src={mainImage}
+    alt="메인 식 이미지"
+    class="h-full w-full object-cover"
+  />
+  <div
+    class="absolute bottom-20 left-0 w-full pb-8 text-white"
+  >
+    <div
+      class="flex w-full flex-col items-center justify-center font-AlexBrush text-7xl font-normal"
+    >
+      <p>Happily</p><p>Ever</p><p>After</p>
+    </div>
+  </div>
+  <div
+    class="absolute bottom-0 left-0 w-full pb-8 text-white"
+  >
+    <p class="flex flex-col items-center justify-center text-lg font-normal">
+      <span>2025.09.14 SUN 18:18</span>
+      <span class="text-base font-medium"></span>
+    </p>
+  </div>
+</div>
