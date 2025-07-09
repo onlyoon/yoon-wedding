@@ -1,0 +1,21 @@
+---
+---
+<!-- <link rel="stylesheet" href="/ol.css" /> -->
+ <section
+  class="flex flex-col items-center justify-center gap-1 bg-[color:--sub-bg] py-10"
+>
+  <span class="text-sm font-light text-slate-400">location</span>
+  <p class="mb-5 text-xl font-medium">위치</p>
+<div id="map" class="w-full h-[300px] overflow-hidden"></div>
+</section>
+
+<style>
+  #map {
+    width: calc(100% - 1rem);
+    height: calc(300px - 1rem);
+    border-radius: 1rem;
+    border: 1px solid black;
+  }
+</style>
+
+<script src="/Map.js" type="module" defer></script>

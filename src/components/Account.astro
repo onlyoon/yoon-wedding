@@ -3,14 +3,14 @@ import { account } from "../constants";
 ---
 
 <section class="fade-in flex flex-col items-center justify-center gap-1 py-10">
-  <span class="text-sm font-light text-slate-400">congrats!</span>
+  <span class="text-sm font-light text-slate-400">congrats</span>
   <p class="mb-5 text-xl font-medium">마음 전하실 곳</p>
   <div
     id="account-container"
     class="flex flex-col gap-5 text-[color:--font-body-color]"
   >
     <div class="flex flex-col gap-1">
-      <h2 class="p-1 text-center text-base">신랑측 계좌번호</h2>
+      <h2 class="p-1 text-center text-base">계좌번호</h2>
       {
         account
           .filter(({ group }) => group === "박상윤")
