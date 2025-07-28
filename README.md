@@ -1,5 +1,5 @@
 **청첩장**
 
-> https://sang-yoon.github.io/
+> https://yoon-wedding.vercel.app/
 
-<img src="https://github.com/user-attachments/assets/66bd21df-d0dd-49c7-ae9b-e5e4a801101b" style="width:400px" />
+<img src="https://yoon-wedding.vercel.app/_astro/main.B0oBRbYj_2677rA.webp" style="width:400px" />
